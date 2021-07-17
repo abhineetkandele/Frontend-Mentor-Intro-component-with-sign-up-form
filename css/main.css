@@ -100,17 +100,8 @@ main {
 .error input {
   border: 2px solid var(--colorBackground);
   color: var(--colorBackground);
-}
-
-.error-icon {
-  position: absolute;
-  right: 18px;
-  top: 18px;
-  display: none;
-}
-
-.error .error-icon {
-  display: block;
+  background: url("../images/icon-error.svg") no-repeat;
+  background-position: right 18px top 18px;
 }
 
 .error-message {

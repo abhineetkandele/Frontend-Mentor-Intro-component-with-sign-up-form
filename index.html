@@ -20,7 +20,7 @@
           See how experienced developers solve problems in real-time. Watching
           scripted tutorials is great, but understanding how develoeprs think is
           invaluable.
-        </h2>
+        </p>
       </section>
       <div class="form">
         <div class="form-header">
@@ -28,24 +28,20 @@
         </div>
         <form class="form-main" id="registration">
           <div class="form-element">
-            <img src="./images/icon-error.svg" class="error-icon" alt="Error" />
-            <input type="text" placeholder="First Name" name="firstName" />
-            <em class="error-message">First Name cannot be empty</em>
+            <input type="text" placeholder="First Name" name="firstName" id="firstName" aria-label="First Name" />
+            <em class="error-message" aria-describedby="firstName" role="alert">First Name cannot be empty</em>
           </div>
           <div class="form-element">
-            <img src="./images/icon-error.svg" class="error-icon" alt="Error" />
-            <input type="text" placeholder="Last Name" name="lastName" />
-            <em class="error-message">Last Name cannot be empty</em>
+            <input type="text" placeholder="Last Name" name="lastName" id="lastName" aria-label="Last Name" />
+            <em class="error-message" aria-describedby="lastName" role="alert">Last Name cannot be empty</em>
           </div>
           <div class="form-element">
-            <img src="./images/icon-error.svg" class="error-icon" alt="Error" />
-            <input type="text" placeholder="Email Address" name="email" />
-            <em class="email-error error-message"></em>
+            <input type="text" placeholder="Email Address" name="email" id="email" aria-label="Email Address" />
+            <em class="email-error error-message" aria-describedby="email" role="alert"></em>
           </div>
           <div class="form-element">
-            <img src="./images/icon-error.svg" class="error-icon" alt="Error" />
-            <input type="password" placeholder="Password" name="password" />
-            <em class="error-message">Password cannot be empty</em>
+            <input type="password" placeholder="Password" name="password" id="password" aria-label="Password" />
+            <em class="error-message" aria-describedby="password" role="alert">Password cannot be empty</em>
           </div>
           <button type="submit" class="form-button">Claim your free trial</button>
           <p class="form-terms">
